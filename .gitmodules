@@ -1,0 +1,9 @@
+[submodule "External/ReactiveCocoa"]
+	path = External/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "External/SDWebImage"]
+	path = External/SDWebImage
+	url = https://github.com/rs/SDWebImage.git
+[submodule "External/ExchangeKit"]
+	path = External/ExchangeKit
+	url = https://github.com/CodaFi/ExchangeKit.git

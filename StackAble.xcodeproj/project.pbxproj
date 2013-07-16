@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8415CE1F17949A88005BFABC /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424C63E17723BFB009879D6 /* ReactiveCocoa.framework */; };
+		8415CE2017949A88005BFABC /* ExchangeKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8424C62917723633009879D6 /* ExchangeKit.framework */; };
+		8415CE2117949A88005BFABC /* Mantle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 841F5ED01772CA400043E8C6 /* Mantle.framework */; };
+		8415CE361795F2FF005BFABC /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415CE331795F2FF005BFABC /* INAppStoreWindow.m */; };
+		8415CE371795F2FF005BFABC /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415CE351795F2FF005BFABC /* INWindowButton.m */; };
+		841F5E6E17725E370043E8C6 /* STKMainColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E6D17725E370043E8C6 /* STKMainColumnViewController.m */; };
+		841F5E7117725E430043E8C6 /* STKMainColumnViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E7017725E430043E8C6 /* STKMainColumnViewModel.m */; };
+		841F5E74177279C40043E8C6 /* STKQuestionTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E73177279C40043E8C6 /* STKQuestionTableCellView.m */; };
+		841F5E7C1772829D0043E8C6 /* STKTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E7B1772829D0043E8C6 /* STKTextFieldCell.m */; };
+		841F5E881772A71F0043E8C6 /* STKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E871772A71F0043E8C6 /* STKTableView.m */; };
+		841F5E8B1772AAB40043E8C6 /* STKDetailPaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E8A1772AAB40043E8C6 /* STKDetailPaneViewController.m */; };
+		841F5E901772AAD70043E8C6 /* STKDetailPaneViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5E8F1772AAD70043E8C6 /* STKDetailPaneViewModel.m */; };
+		841F5EC41772BAFE0043E8C6 /* _Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EB51772BAFE0043E8C6 /* _Question.m */; };
+		841F5EC51772BAFE0043E8C6 /* _Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EB71772BAFE0043E8C6 /* _Site.m */; };
+		841F5EC61772BAFE0043E8C6 /* _Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EB91772BAFE0043E8C6 /* _Tag.m */; };
+		841F5EC71772BAFE0043E8C6 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EBB1772BAFE0043E8C6 /* _User.m */; };
+		841F5EC81772BAFE0043E8C6 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EBD1772BAFE0043E8C6 /* Question.m */; };
+		841F5EC91772BAFE0043E8C6 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EBF1772BAFE0043E8C6 /* Site.m */; };
+		841F5ECA1772BAFE0043E8C6 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EC11772BAFE0043E8C6 /* Tag.m */; };
+		841F5ECB1772BAFE0043E8C6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5EC31772BAFE0043E8C6 /* User.m */; };
+		841F5ECE1772BC320043E8C6 /* EXKUser+STKCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5ECD1772BC320043E8C6 /* EXKUser+STKCoreData.m */; };
+		841F5ED11772CA400043E8C6 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F5ED01772CA400043E8C6 /* Mantle.framework */; };
+		841F5ED41772D41B0043E8C6 /* EXKTag+STKCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F5ED31772D41B0043E8C6 /* EXKTag+STKCoreData.m */; };
+		8424C63017723653009879D6 /* ExchangeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424C62917723633009879D6 /* ExchangeKit.framework */; };
+		8424C64717723C04009879D6 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424C63E17723BFB009879D6 /* ReactiveCocoa.framework */; };
+		84B6F71D177135D200299839 /* STKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F71C177135D200299839 /* STKView.m */; };
+		84B6F7701771593000299839 /* STKLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F76F1771593000299839 /* STKLoginWindowController.m */; };
+		84B6F7731771595500299839 /* STKLoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F7721771595500299839 /* STKLoginWindow.m */; };
+		84B6F77717715B9200299839 /* STKLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F77617715B9200299839 /* STKLoginView.m */; };
+		84B6F77917715C9C00299839 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B6F77817715C9C00299839 /* WebKit.framework */; };
+		84B6F77C1771698800299839 /* STKGlobalStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F77B1771698800299839 /* STKGlobalStateManager.m */; };
+		84DF36C5177103C7006C0567 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF36C4177103C7006C0567 /* Cocoa.framework */; };
+		84DF36CF177103C7006C0567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36CD177103C7006C0567 /* InfoPlist.strings */; };
+		84DF36D1177103C7006C0567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36D0177103C7006C0567 /* main.m */; };
+		84DF36D5177103C7006C0567 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36D3177103C7006C0567 /* Credits.rtf */; };
+		84DF36D8177103C7006C0567 /* STKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36D7177103C7006C0567 /* STKAppDelegate.m */; };
+		84DF36DE177103C7006C0567 /* StackAble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36DC177103C7006C0567 /* StackAble.xcdatamodeld */; };
+		84DF36E0177103C7006C0567 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36DF177103C7006C0567 /* Images.xcassets */; };
+		84DF36E7177103C8006C0567 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF36E6177103C8006C0567 /* XCTest.framework */; };
+		84DF36E8177103C8006C0567 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF36C4177103C7006C0567 /* Cocoa.framework */; };
+		84DF36F0177103C8006C0567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36EE177103C8006C0567 /* InfoPlist.strings */; };
+		84DF36F2177103C8006C0567 /* StackAbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36F1177103C8006C0567 /* StackAbleTests.m */; };
+		84DF36FD177103FE006C0567 /* STKMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36FC177103FE006C0567 /* STKMainWindowController.m */; };
+		84DF370717710477006C0567 /* STKMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF370617710477006C0567 /* STKMainWindow.m */; };
+		84DF3709177106A1006C0567 /* STKMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DF3708177106A1006C0567 /* STKMainMenu.xib */; };
+		84DF370C1771086C006C0567 /* DMSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF370B1771086C006C0567 /* DMSplitView.m */; };
+		84DF370F17710909006C0567 /* STKProfileColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF370E17710909006C0567 /* STKProfileColumnView.m */; };
+		84DF37121771094C006C0567 /* STKMainColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF37111771094C006C0567 /* STKMainColumnView.m */; };
+		84DF372417710E62006C0567 /* STKProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF372317710E62006C0567 /* STKProfileViewModel.m */; };
+		84DF372717710E9B006C0567 /* STKProfileColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF372617710E9B006C0567 /* STKProfileColumnViewController.m */; };
+		84DF373F177117FC006C0567 /* STKProfileButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF373E177117FC006C0567 /* STKProfileButton.m */; };
+		84DF37421771196E006C0567 /* STKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF37411771196E006C0567 /* STKUtilities.m */; };
+		84DF374E17711DCD006C0567 /* STKProfileSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF374D17711DCD006C0567 /* STKProfileSectionHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8415CE3F1795F2FF005BFABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		8415CE411795F2FF005BFABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		8424C62817723633009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84B6F7961771805B00299839;
+			remoteInfo = ExchangeKit;
+		};
+		8424C62A17723633009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84B6F7AD1771805B00299839;
+			remoteInfo = ExchangeKitTests;
+		};
+		8424C62C17723633009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84B6F7CA1771808200299839;
+			remoteInfo = "ExchangeKit-iOS";
+		};
+		8424C62E1772364E009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6F7951771805B00299839;
+			remoteInfo = ExchangeKit;
+		};
+		8424C63D17723BFB009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		8424C63F17723BFB009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		8424C64117723BFB009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		8424C64317723BFB009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		8424C64517723C01009879D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88037F8215056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		84DF36E9177103C8006C0567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DF36B9177103C7006C0567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DF36C0177103C7006C0567;
+			remoteInfo = StackAble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8415CE1917949A76005BFABC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8415CE1F17949A88005BFABC /* ReactiveCocoa.framework in CopyFiles */,
+				8415CE2017949A88005BFABC /* ExchangeKit.framework in CopyFiles */,
+				8415CE2117949A88005BFABC /* Mantle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8415CE321795F2FF005BFABC /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
+		8415CE331795F2FF005BFABC /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
+		8415CE341795F2FF005BFABC /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
+		8415CE351795F2FF005BFABC /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
+		841F5E6C17725E370043E8C6 /* STKMainColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMainColumnViewController.h; sourceTree = "<group>"; };
+		841F5E6D17725E370043E8C6 /* STKMainColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMainColumnViewController.m; sourceTree = "<group>"; };
+		841F5E6F17725E430043E8C6 /* STKMainColumnViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMainColumnViewModel.h; sourceTree = "<group>"; };
+		841F5E7017725E430043E8C6 /* STKMainColumnViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMainColumnViewModel.m; sourceTree = "<group>"; };
+		841F5E72177279C40043E8C6 /* STKQuestionTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKQuestionTableCellView.h; sourceTree = "<group>"; };
+		841F5E73177279C40043E8C6 /* STKQuestionTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKQuestionTableCellView.m; sourceTree = "<group>"; };
+		841F5E7A1772829D0043E8C6 /* STKTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKTextFieldCell.h; sourceTree = "<group>"; };
+		841F5E7B1772829D0043E8C6 /* STKTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKTextFieldCell.m; sourceTree = "<group>"; };
+		841F5E861772A71F0043E8C6 /* STKTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKTableView.h; sourceTree = "<group>"; };
+		841F5E871772A71F0043E8C6 /* STKTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKTableView.m; sourceTree = "<group>"; };
+		841F5E891772AAB40043E8C6 /* STKDetailPaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDetailPaneViewController.h; sourceTree = "<group>"; };
+		841F5E8A1772AAB40043E8C6 /* STKDetailPaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDetailPaneViewController.m; sourceTree = "<group>"; };
+		841F5E8E1772AAD70043E8C6 /* STKDetailPaneViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDetailPaneViewModel.h; sourceTree = "<group>"; };
+		841F5E8F1772AAD70043E8C6 /* STKDetailPaneViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDetailPaneViewModel.m; sourceTree = "<group>"; };
+		841F5EB41772BAFE0043E8C6 /* _Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Question.h; sourceTree = "<group>"; };
+		841F5EB51772BAFE0043E8C6 /* _Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Question.m; sourceTree = "<group>"; };
+		841F5EB61772BAFE0043E8C6 /* _Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Site.h; sourceTree = "<group>"; };
+		841F5EB71772BAFE0043E8C6 /* _Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Site.m; sourceTree = "<group>"; };
+		841F5EB81772BAFE0043E8C6 /* _Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Tag.h; sourceTree = "<group>"; };
+		841F5EB91772BAFE0043E8C6 /* _Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Tag.m; sourceTree = "<group>"; };
+		841F5EBA1772BAFE0043E8C6 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _User.h; sourceTree = "<group>"; };
+		841F5EBB1772BAFE0043E8C6 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _User.m; sourceTree = "<group>"; };
+		841F5EBC1772BAFE0043E8C6 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		841F5EBD1772BAFE0043E8C6 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		841F5EBE1772BAFE0043E8C6 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		841F5EBF1772BAFE0043E8C6 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		841F5EC01772BAFE0043E8C6 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		841F5EC11772BAFE0043E8C6 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		841F5EC21772BAFE0043E8C6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		841F5EC31772BAFE0043E8C6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		841F5ECC1772BC320043E8C6 /* EXKUser+STKCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXKUser+STKCoreData.h"; sourceTree = "<group>"; };
+		841F5ECD1772BC320043E8C6 /* EXKUser+STKCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXKUser+STKCoreData.m"; sourceTree = "<group>"; };
+		841F5ECF1772C3700043E8C6 /* ExchangeKit+StackAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExchangeKit+StackAble.h"; sourceTree = "<group>"; };
+		841F5ED01772CA400043E8C6 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../Library/Developer/Xcode/DerivedData/StackAble-baxqfemglvjjyocgguhebnypksht/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
+		841F5ED21772D41B0043E8C6 /* EXKTag+STKCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXKTag+STKCoreData.h"; sourceTree = "<group>"; };
+		841F5ED31772D41B0043E8C6 /* EXKTag+STKCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXKTag+STKCoreData.m"; sourceTree = "<group>"; };
+		8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExchangeKit.xcodeproj; path = External/ExchangeKit/ExchangeKit.xcodeproj; sourceTree = "<group>"; };
+		8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = External/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		84B6F71B177135D200299839 /* STKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKView.h; sourceTree = "<group>"; };
+		84B6F71C177135D200299839 /* STKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKView.m; sourceTree = "<group>"; };
+		84B6F76B177154B800299839 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/StackAble-baxqfemglvjjyocgguhebnypksht/Build/Products/Debug/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		84B6F76E1771593000299839 /* STKLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLoginWindowController.h; sourceTree = "<group>"; };
+		84B6F76F1771593000299839 /* STKLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLoginWindowController.m; sourceTree = "<group>"; };
+		84B6F7711771595500299839 /* STKLoginWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLoginWindow.h; sourceTree = "<group>"; };
+		84B6F7721771595500299839 /* STKLoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLoginWindow.m; sourceTree = "<group>"; };
+		84B6F77517715B9200299839 /* STKLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLoginView.h; sourceTree = "<group>"; };
+		84B6F77617715B9200299839 /* STKLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLoginView.m; sourceTree = "<group>"; };
+		84B6F77817715C9C00299839 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		84B6F77A1771698800299839 /* STKGlobalStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKGlobalStateManager.h; sourceTree = "<group>"; };
+		84B6F77B1771698800299839 /* STKGlobalStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKGlobalStateManager.m; sourceTree = "<group>"; };
+		84DF36C1177103C7006C0567 /* StackAble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackAble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DF36C4177103C7006C0567 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84DF36C7177103C7006C0567 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84DF36C8177103C7006C0567 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84DF36C9177103C7006C0567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DF36CC177103C7006C0567 /* StackAble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackAble-Info.plist"; sourceTree = "<group>"; };
+		84DF36CE177103C7006C0567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DF36D0177103C7006C0567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DF36D2177103C7006C0567 /* StackAble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackAble-Prefix.pch"; sourceTree = "<group>"; };
+		84DF36D4177103C7006C0567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84DF36D6177103C7006C0567 /* STKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STKAppDelegate.h; sourceTree = "<group>"; };
+		84DF36D7177103C7006C0567 /* STKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STKAppDelegate.m; sourceTree = "<group>"; };
+		84DF36DD177103C7006C0567 /* StackAble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackAble.xcdatamodel; sourceTree = "<group>"; };
+		84DF36DF177103C7006C0567 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DF36E5177103C8006C0567 /* StackAbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = StackAbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DF36E6177103C8006C0567 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84DF36ED177103C8006C0567 /* StackAbleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackAbleTests-Info.plist"; sourceTree = "<group>"; };
+		84DF36EF177103C8006C0567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DF36F1177103C8006C0567 /* StackAbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackAbleTests.m; sourceTree = "<group>"; };
+		84DF36FB177103FE006C0567 /* STKMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMainWindowController.h; sourceTree = "<group>"; };
+		84DF36FC177103FE006C0567 /* STKMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMainWindowController.m; sourceTree = "<group>"; };
+		84DF370517710477006C0567 /* STKMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMainWindow.h; sourceTree = "<group>"; };
+		84DF370617710477006C0567 /* STKMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMainWindow.m; sourceTree = "<group>"; };
+		84DF3708177106A1006C0567 /* STKMainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STKMainMenu.xib; sourceTree = "<group>"; };
+		84DF370A1771086C006C0567 /* DMSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSplitView.h; sourceTree = "<group>"; };
+		84DF370B1771086C006C0567 /* DMSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSplitView.m; sourceTree = "<group>"; };
+		84DF370D17710909006C0567 /* STKProfileColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKProfileColumnView.h; sourceTree = "<group>"; };
+		84DF370E17710909006C0567 /* STKProfileColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKProfileColumnView.m; sourceTree = "<group>"; };
+		84DF37101771094C006C0567 /* STKMainColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKMainColumnView.h; sourceTree = "<group>"; };
+		84DF37111771094C006C0567 /* STKMainColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKMainColumnView.m; sourceTree = "<group>"; };
+		84DF372217710E62006C0567 /* STKProfileViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKProfileViewModel.h; sourceTree = "<group>"; };
+		84DF372317710E62006C0567 /* STKProfileViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKProfileViewModel.m; sourceTree = "<group>"; };
+		84DF372517710E9B006C0567 /* STKProfileColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKProfileColumnViewController.h; sourceTree = "<group>"; };
+		84DF372617710E9B006C0567 /* STKProfileColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKProfileColumnViewController.m; sourceTree = "<group>"; };
+		84DF373D177117FC006C0567 /* STKProfileButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKProfileButton.h; sourceTree = "<group>"; };
+		84DF373E177117FC006C0567 /* STKProfileButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKProfileButton.m; sourceTree = "<group>"; };
+		84DF37401771196E006C0567 /* STKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKUtilities.h; sourceTree = "<group>"; };
+		84DF37411771196E006C0567 /* STKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKUtilities.m; sourceTree = "<group>"; };
+		84DF374C17711DCD006C0567 /* STKProfileSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKProfileSectionHeader.h; sourceTree = "<group>"; };
+		84DF374D17711DCD006C0567 /* STKProfileSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKProfileSectionHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DF36BE177103C7006C0567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F5ED11772CA400043E8C6 /* Mantle.framework in Frameworks */,
+				8424C64717723C04009879D6 /* ReactiveCocoa.framework in Frameworks */,
+				8424C63017723653009879D6 /* ExchangeKit.framework in Frameworks */,
+				84B6F77917715C9C00299839 /* WebKit.framework in Frameworks */,
+				84DF36C5177103C7006C0567 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF36E2177103C8006C0567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF36E8177103C8006C0567 /* Cocoa.framework in Frameworks */,
+				84DF36E7177103C8006C0567 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8415CE431795F31F005BFABC /* DMSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				84DF370A1771086C006C0567 /* DMSplitView.h */,
+				84DF370B1771086C006C0567 /* DMSplitView.m */,
+			);
+			name = DMSplitView;
+			sourceTree = "<group>";
+		};
+		8415CE441795F351005BFABC /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8415CE431795F31F005BFABC /* DMSplitView */,
+				84DF37041771045B006C0567 /* INAppStoreWindow */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		841F5E66177258E20043E8C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				841F5E6C17725E370043E8C6 /* STKMainColumnViewController.h */,
+				841F5E6D17725E370043E8C6 /* STKMainColumnViewController.m */,
+				841F5E6F17725E430043E8C6 /* STKMainColumnViewModel.h */,
+				841F5E7017725E430043E8C6 /* STKMainColumnViewModel.m */,
+				84DF37101771094C006C0567 /* STKMainColumnView.h */,
+				84DF37111771094C006C0567 /* STKMainColumnView.m */,
+				841F5E72177279C40043E8C6 /* STKQuestionTableCellView.h */,
+				841F5E73177279C40043E8C6 /* STKQuestionTableCellView.m */,
+				841F5E861772A71F0043E8C6 /* STKTableView.h */,
+				841F5E871772A71F0043E8C6 /* STKTableView.m */,
+				841F5E7A1772829D0043E8C6 /* STKTextFieldCell.h */,
+				841F5E7B1772829D0043E8C6 /* STKTextFieldCell.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		841F5E8C1772AABC0043E8C6 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				841F5E891772AAB40043E8C6 /* STKDetailPaneViewController.h */,
+				841F5E8A1772AAB40043E8C6 /* STKDetailPaneViewController.m */,
+				841F5E8E1772AAD70043E8C6 /* STKDetailPaneViewModel.h */,
+				841F5E8F1772AAD70043E8C6 /* STKDetailPaneViewModel.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		841F5EB31772BA4A0043E8C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				841F5EB41772BAFE0043E8C6 /* _Question.h */,
+				841F5EB51772BAFE0043E8C6 /* _Question.m */,
+				841F5EB61772BAFE0043E8C6 /* _Site.h */,
+				841F5EB71772BAFE0043E8C6 /* _Site.m */,
+				841F5EB81772BAFE0043E8C6 /* _Tag.h */,
+				841F5EB91772BAFE0043E8C6 /* _Tag.m */,
+				841F5EBA1772BAFE0043E8C6 /* _User.h */,
+				841F5EBB1772BAFE0043E8C6 /* _User.m */,
+				841F5EBC1772BAFE0043E8C6 /* Question.h */,
+				841F5EBD1772BAFE0043E8C6 /* Question.m */,
+				841F5EBE1772BAFE0043E8C6 /* Site.h */,
+				841F5EBF1772BAFE0043E8C6 /* Site.m */,
+				841F5ED21772D41B0043E8C6 /* EXKTag+STKCoreData.h */,
+				841F5ED31772D41B0043E8C6 /* EXKTag+STKCoreData.m */,
+				841F5EC01772BAFE0043E8C6 /* Tag.h */,
+				841F5EC11772BAFE0043E8C6 /* Tag.m */,
+				841F5ECC1772BC320043E8C6 /* EXKUser+STKCoreData.h */,
+				841F5ECD1772BC320043E8C6 /* EXKUser+STKCoreData.m */,
+				841F5EC21772BAFE0043E8C6 /* User.h */,
+				841F5EC31772BAFE0043E8C6 /* User.m */,
+				841F5ECF1772C3700043E8C6 /* ExchangeKit+StackAble.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8424C62017723632009879D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8424C62917723633009879D6 /* ExchangeKit.framework */,
+				8424C62B17723633009879D6 /* ExchangeKitTests.xctest */,
+				8424C62D17723633009879D6 /* libExchangeKit-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8424C63517723BFA009879D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8424C63E17723BFB009879D6 /* ReactiveCocoa.framework */,
+				8424C64017723BFB009879D6 /* libReactiveCocoa-iOS.a */,
+				8424C64217723BFB009879D6 /* ReactiveCocoaTests.octest */,
+				8424C64417723BFB009879D6 /* ReactiveCocoaTests-iOS.octest */,
+				8415CE401795F2FF005BFABC /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				8415CE421795F2FF005BFABC /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B6F7741771596C00299839 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84B6F76E1771593000299839 /* STKLoginWindowController.h */,
+				84B6F76F1771593000299839 /* STKLoginWindowController.m */,
+				84B6F7711771595500299839 /* STKLoginWindow.h */,
+				84B6F7721771595500299839 /* STKLoginWindow.m */,
+				84B6F77517715B9200299839 /* STKLoginView.h */,
+				84B6F77617715B9200299839 /* STKLoginView.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		84DF36B8177103C7006C0567 = {
+			isa = PBXGroup;
+			children = (
+				8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */,
+				8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */,
+				84DF36CA177103C7006C0567 /* StackAble */,
+				84DF36EB177103C8006C0567 /* StackAbleTests */,
+				84DF36C3177103C7006C0567 /* Frameworks */,
+				84DF36C2177103C7006C0567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DF36C2177103C7006C0567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36C1177103C7006C0567 /* StackAble.app */,
+				84DF36E5177103C8006C0567 /* StackAbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DF36C3177103C7006C0567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841F5ED01772CA400043E8C6 /* Mantle.framework */,
+				84B6F77817715C9C00299839 /* WebKit.framework */,
+				84B6F76B177154B800299839 /* ReactiveCocoa.framework */,
+				84DF36C4177103C7006C0567 /* Cocoa.framework */,
+				84DF36E6177103C8006C0567 /* XCTest.framework */,
+				84DF36C6177103C7006C0567 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DF36C6177103C7006C0567 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36C7177103C7006C0567 /* AppKit.framework */,
+				84DF36C8177103C7006C0567 /* CoreData.framework */,
+				84DF36C9177103C7006C0567 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84DF36CA177103C7006C0567 /* StackAble */ = {
+			isa = PBXGroup;
+			children = (
+				84DF37401771196E006C0567 /* STKUtilities.h */,
+				84DF37411771196E006C0567 /* STKUtilities.m */,
+				84DF36D6177103C7006C0567 /* STKAppDelegate.h */,
+				84DF36D7177103C7006C0567 /* STKAppDelegate.m */,
+				84B6F77A1771698800299839 /* STKGlobalStateManager.h */,
+				84B6F77B1771698800299839 /* STKGlobalStateManager.m */,
+				84DF36FB177103FE006C0567 /* STKMainWindowController.h */,
+				84DF36FC177103FE006C0567 /* STKMainWindowController.m */,
+				84DF370517710477006C0567 /* STKMainWindow.h */,
+				84DF370617710477006C0567 /* STKMainWindow.m */,
+				84B6F71B177135D200299839 /* STKView.h */,
+				84B6F71C177135D200299839 /* STKView.m */,
+				841F5EB31772BA4A0043E8C6 /* Models */,
+				84B6F7741771596C00299839 /* Login */,
+				84DF372817710EBE006C0567 /* Profile */,
+				841F5E66177258E20043E8C6 /* Main */,
+				841F5E8C1772AABC0043E8C6 /* Details */,
+				8415CE441795F351005BFABC /* External */,
+				84DF36CB177103C7006C0567 /* Supporting Files */,
+			);
+			path = StackAble;
+			sourceTree = "<group>";
+		};
+		84DF36CB177103C7006C0567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DF3708177106A1006C0567 /* STKMainMenu.xib */,
+				84DF36DF177103C7006C0567 /* Images.xcassets */,
+				84DF36DC177103C7006C0567 /* StackAble.xcdatamodeld */,
+				84DF36CC177103C7006C0567 /* StackAble-Info.plist */,
+				84DF36CD177103C7006C0567 /* InfoPlist.strings */,
+				84DF36D0177103C7006C0567 /* main.m */,
+				84DF36D2177103C7006C0567 /* StackAble-Prefix.pch */,
+				84DF36D3177103C7006C0567 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DF36EB177103C8006C0567 /* StackAbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36F1177103C8006C0567 /* StackAbleTests.m */,
+				84DF36EC177103C8006C0567 /* Supporting Files */,
+			);
+			path = StackAbleTests;
+			sourceTree = "<group>";
+		};
+		84DF36EC177103C8006C0567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36ED177103C8006C0567 /* StackAbleTests-Info.plist */,
+				84DF36EE177103C8006C0567 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DF37041771045B006C0567 /* INAppStoreWindow */ = {
+			isa = PBXGroup;
+			children = (
+				8415CE321795F2FF005BFABC /* INAppStoreWindow.h */,
+				8415CE331795F2FF005BFABC /* INAppStoreWindow.m */,
+				8415CE341795F2FF005BFABC /* INWindowButton.h */,
+				8415CE351795F2FF005BFABC /* INWindowButton.m */,
+			);
+			name = INAppStoreWindow;
+			sourceTree = "<group>";
+		};
+		84DF372817710EBE006C0567 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84DF372517710E9B006C0567 /* STKProfileColumnViewController.h */,
+				84DF372617710E9B006C0567 /* STKProfileColumnViewController.m */,
+				84DF370D17710909006C0567 /* STKProfileColumnView.h */,
+				84DF370E17710909006C0567 /* STKProfileColumnView.m */,
+				84DF372217710E62006C0567 /* STKProfileViewModel.h */,
+				84DF372317710E62006C0567 /* STKProfileViewModel.m */,
+				84DF374C17711DCD006C0567 /* STKProfileSectionHeader.h */,
+				84DF374D17711DCD006C0567 /* STKProfileSectionHeader.m */,
+				84DF373D177117FC006C0567 /* STKProfileButton.h */,
+				84DF373E177117FC006C0567 /* STKProfileButton.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DF36C0177103C7006C0567 /* StackAble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF36F5177103C8006C0567 /* Build configuration list for PBXNativeTarget "StackAble" */;
+			buildPhases = (
+				84DF36BD177103C7006C0567 /* Sources */,
+				84DF36BE177103C7006C0567 /* Frameworks */,
+				84DF36BF177103C7006C0567 /* Resources */,
+				841F5E9A1772B9770043E8C6 /* ShellScript */,
+				8415CE1917949A76005BFABC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8424C64617723C01009879D6 /* PBXTargetDependency */,
+				8424C62F1772364E009879D6 /* PBXTargetDependency */,
+			);
+			name = StackAble;
+			productName = StackAble;
+			productReference = 84DF36C1177103C7006C0567 /* StackAble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DF36E4177103C8006C0567 /* StackAbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF36F8177103C8006C0567 /* Build configuration list for PBXNativeTarget "StackAbleTests" */;
+			buildPhases = (
+				84DF36E1177103C8006C0567 /* Sources */,
+				84DF36E2177103C8006C0567 /* Frameworks */,
+				84DF36E3177103C8006C0567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DF36EA177103C8006C0567 /* PBXTargetDependency */,
+			);
+			name = StackAbleTests;
+			productName = StackAbleTests;
+			productReference = 84DF36E5177103C8006C0567 /* StackAbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DF36B9177103C7006C0567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CodaFi;
+				TargetAttributes = {
+					84DF36E4177103C8006C0567 = {
+						TestTargetID = 84DF36C0177103C7006C0567;
+					};
+				};
+			};
+			buildConfigurationList = 84DF36BC177103C7006C0567 /* Build configuration list for PBXProject "StackAble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DF36B8177103C7006C0567;
+			productRefGroup = 84DF36C2177103C7006C0567 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8424C62017723632009879D6 /* Products */;
+					ProjectRef = 8424C61F17723632009879D6 /* ExchangeKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 8424C63517723BFA009879D6 /* Products */;
+					ProjectRef = 8424C63417723BFA009879D6 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84DF36C0177103C7006C0567 /* StackAble */,
+				84DF36E4177103C8006C0567 /* StackAbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8415CE401795F2FF005BFABC /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 8415CE3F1795F2FF005BFABC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8415CE421795F2FF005BFABC /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 8415CE411795F2FF005BFABC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C62917723633009879D6 /* ExchangeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExchangeKit.framework;
+			remoteRef = 8424C62817723633009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C62B17723633009879D6 /* ExchangeKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = folder;
+			path = ExchangeKitTests.xctest;
+			remoteRef = 8424C62A17723633009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C62D17723633009879D6 /* libExchangeKit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libExchangeKit-iOS.a";
+			remoteRef = 8424C62C17723633009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C63E17723BFB009879D6 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 8424C63D17723BFB009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C64017723BFB009879D6 /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 8424C63F17723BFB009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C64217723BFB009879D6 /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 8424C64117723BFB009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8424C64417723BFB009879D6 /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 8424C64317723BFB009879D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DF36BF177103C7006C0567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF36CF177103C7006C0567 /* InfoPlist.strings in Resources */,
+				84DF36E0177103C7006C0567 /* Images.xcassets in Resources */,
+				84DF36D5177103C7006C0567 /* Credits.rtf in Resources */,
+				84DF3709177106A1006C0567 /* STKMainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF36E3177103C8006C0567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF36F0177103C8006C0567 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		841F5E9A1772B9770043E8C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd StackAble\nmogenerator --template-var arc=true -m StackAble.xcdatamodeld/StackAble.xcdatamodel/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DF36BD177103C7006C0567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF370C1771086C006C0567 /* DMSplitView.m in Sources */,
+				84B6F77717715B9200299839 /* STKLoginView.m in Sources */,
+				841F5EC51772BAFE0043E8C6 /* _Site.m in Sources */,
+				84B6F71D177135D200299839 /* STKView.m in Sources */,
+				84DF372417710E62006C0567 /* STKProfileViewModel.m in Sources */,
+				84DF372717710E9B006C0567 /* STKProfileColumnViewController.m in Sources */,
+				841F5EC41772BAFE0043E8C6 /* _Question.m in Sources */,
+				84B6F77C1771698800299839 /* STKGlobalStateManager.m in Sources */,
+				841F5E74177279C40043E8C6 /* STKQuestionTableCellView.m in Sources */,
+				84B6F7701771593000299839 /* STKLoginWindowController.m in Sources */,
+				841F5E7117725E430043E8C6 /* STKMainColumnViewModel.m in Sources */,
+				84DF370717710477006C0567 /* STKMainWindow.m in Sources */,
+				84DF373F177117FC006C0567 /* STKProfileButton.m in Sources */,
+				841F5ECE1772BC320043E8C6 /* EXKUser+STKCoreData.m in Sources */,
+				841F5ECB1772BAFE0043E8C6 /* User.m in Sources */,
+				84DF36DE177103C7006C0567 /* StackAble.xcdatamodeld in Sources */,
+				841F5E881772A71F0043E8C6 /* STKTableView.m in Sources */,
+				841F5E901772AAD70043E8C6 /* STKDetailPaneViewModel.m in Sources */,
+				84DF36D1177103C7006C0567 /* main.m in Sources */,
+				84DF374E17711DCD006C0567 /* STKProfileSectionHeader.m in Sources */,
+				841F5EC61772BAFE0043E8C6 /* _Tag.m in Sources */,
+				841F5EC71772BAFE0043E8C6 /* _User.m in Sources */,
+				841F5E7C1772829D0043E8C6 /* STKTextFieldCell.m in Sources */,
+				841F5EC91772BAFE0043E8C6 /* Site.m in Sources */,
+				8415CE361795F2FF005BFABC /* INAppStoreWindow.m in Sources */,
+				841F5ECA1772BAFE0043E8C6 /* Tag.m in Sources */,
+				841F5E8B1772AAB40043E8C6 /* STKDetailPaneViewController.m in Sources */,
+				84DF370F17710909006C0567 /* STKProfileColumnView.m in Sources */,
+				8415CE371795F2FF005BFABC /* INWindowButton.m in Sources */,
+				84DF36D8177103C7006C0567 /* STKAppDelegate.m in Sources */,
+				84B6F7731771595500299839 /* STKLoginWindow.m in Sources */,
+				841F5E6E17725E370043E8C6 /* STKMainColumnViewController.m in Sources */,
+				84DF37121771094C006C0567 /* STKMainColumnView.m in Sources */,
+				841F5EC81772BAFE0043E8C6 /* Question.m in Sources */,
+				841F5ED41772D41B0043E8C6 /* EXKTag+STKCoreData.m in Sources */,
+				84DF36FD177103FE006C0567 /* STKMainWindowController.m in Sources */,
+				84DF37421771196E006C0567 /* STKUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF36E1177103C8006C0567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF36F2177103C8006C0567 /* StackAbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8424C62F1772364E009879D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExchangeKit;
+			targetProxy = 8424C62E1772364E009879D6 /* PBXContainerItemProxy */;
+		};
+		8424C64617723C01009879D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveCocoa;
+			targetProxy = 8424C64517723C01009879D6 /* PBXContainerItemProxy */;
+		};
+		84DF36EA177103C8006C0567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DF36C0177103C7006C0567 /* StackAble */;
+			targetProxy = 84DF36E9177103C8006C0567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DF36CD177103C7006C0567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF36CE177103C7006C0567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84DF36D3177103C7006C0567 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF36D4177103C7006C0567 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84DF36EE177103C8006C0567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF36EF177103C8006C0567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DF36F3177103C8006C0567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84DF36F4177103C8006C0567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84DF36F6177103C8006C0567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/StackAble-baxqfemglvjjyocgguhebnypksht/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackAble/StackAble-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External/SDWebImage/SDWebImage\"";
+				INFOPLIST_FILE = "StackAble/StackAble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84DF36F7177103C8006C0567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/StackAble-baxqfemglvjjyocgguhebnypksht/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackAble/StackAble-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External/SDWebImage/SDWebImage\"";
+				INFOPLIST_FILE = "StackAble/StackAble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84DF36F9177103C8006C0567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackAble.app/Contents/MacOS/StackAble";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackAble/StackAble-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StackAbleTests/StackAbleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84DF36FA177103C8006C0567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StackAble.app/Contents/MacOS/StackAble";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StackAble/StackAble-Prefix.pch";
+				INFOPLIST_FILE = "StackAbleTests/StackAbleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DF36BC177103C7006C0567 /* Build configuration list for PBXProject "StackAble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF36F3177103C8006C0567 /* Debug */,
+				84DF36F4177103C8006C0567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF36F5177103C8006C0567 /* Build configuration list for PBXNativeTarget "StackAble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF36F6177103C8006C0567 /* Debug */,
+				84DF36F7177103C8006C0567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF36F8177103C8006C0567 /* Build configuration list for PBXNativeTarget "StackAbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF36F9177103C8006C0567 /* Debug */,
+				84DF36FA177103C8006C0567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DF36DC177103C7006C0567 /* StackAble.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DF36DD177103C7006C0567 /* StackAble.xcdatamodel */,
+			);
+			currentVersion = 84DF36DD177103C7006C0567 /* StackAble.xcdatamodel */;
+			path = StackAble.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DF36B9177103C7006C0567 /* Project object */;
+}
